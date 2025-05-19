@@ -1,0 +1,256 @@
+/*************************mobilsite***********************/
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #cc6907;
+  font-size: 34px;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #f1e1c6;
+}
+
+main {
+  padding: 40px;
+  padding-top: 25px;
+}
+
+form {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#navnform {
+  width: 425px;
+  height: 30px;
+  font-size: 18px;
+}
+#datoform {
+  width: 425px;
+  height: 30px;
+  font-size: 18px;
+}
+#apform {
+  width: 425px;
+  height: 30px;
+  font-size: 18px;
+}
+#btform {
+  width: 425px;
+  height: 30px;
+  font-size: 18px;
+}
+
+.submit {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.submit .button {
+  background-color: #f9faf2;
+  color: #381b0e;
+  text-align: center;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+  align-self: flex-start;
+  list-style: none;
+  text-decoration: none;
+}
+.submit .button:hover {
+  background-color: #cc6907;
+  color: #ffffff;
+  list-style: none;
+}
+form h2 {
+  text-align: start;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.text1 {
+  padding-bottom: 20px;
+}
+
+.text2 {
+  padding-top: 20px;
+}
+
+.footer1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer2 {
+  text-align: center;
+}
+
+.footerlogo {
+  width: 130px;
+  height: auto;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.untappd {
+  width: 200px;
+}
+
+.aabningstider {
+  padding-top: 10px;
+}
+
+.aabningstid1 {
+  line-height: 5px;
+  padding: 20px;
+}
+
+.aabningstid2 {
+  line-height: 5px;
+}
+
+hr {
+  width: 27rem;
+  background-color: black;
+  height: 1.3px;
+}
+/*************************desktop***********************/
+
+@media (min-width: 800px) {
+  main {
+    padding: 60px;
+    line-height: 40px;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  .navn {
+    font-size: 20rem;
+  }
+
+  #navnform {
+    width: 800px;
+    height: 45px;
+    border-radius: 0px;
+    font-size: 20px;
+  }
+  #datoform {
+    width: 800px;
+    height: 45px;
+    border-radius: 0px;
+    font-size: 20px;
+  }
+  #apform {
+    width: 800px;
+    height: 45px;
+    border-radius: 0px;
+    font-size: 20px;
+  }
+  #btform {
+    width: 800px;
+    height: 45px;
+    border-radius: 0px;
+    font-size: 20px;
+  }
+
+  form h2 {
+    text-align: start;
+    padding-left: 440px;
+    line-height: 50px;
+  }
+
+  .submit {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .text1 {
+    padding-bottom: 15px;
+  }
+
+  .text2 {
+    padding-top: 50px;
+  }
+}
+
+/*************************booking***********************/
+
+h1 {
+  color: white;
+  font-size: 2.8rem;
+  font-family: "glocester";
+}
+
+h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: "glocester";
+}
+
+p {
+  color: white;
+  font-size: 1.7rem;
+  font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
+}
+
+main {
+  background-color: #381b0e;
+}
+
+header {
+  background-color: #f9faf2;
+}
+
+footer {
+  background-color: #f9faf2;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: "glocester";
+  src: url(fonts/gloucester_font_2-webfont.woff2);
+}
+
+@media (min-width: 800px) {
+  h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: "glocester";
+  }
+
+  h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "glocester";
+  }
+
+  p {
+    color: white;
+    font-size: 1.7rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  form h2 {
+    font-size: 40px;
+  }
+}
