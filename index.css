@@ -1,0 +1,123 @@
+/*************** STYLE *********************/
+
+header {
+  background-color: #f9faf2;
+}
+/* General Styles */
+
+body {
+  font-family: "glochester";
+  background-color: #381b0e;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  background-color: #f1e1c6;
+  color: #3e1e10;
+  overflow: hidden;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: "glochester";
+}
+
+.card img {
+  width: 100%;
+  height: 80%;
+  display: block;
+  border-bottom: 3px solid #cc6907;
+}
+
+.card h2 {
+  font-size: 2.5rem;
+  margin: 0.5rem 1rem 0;
+  font-family: "glochester";
+}
+/*
+.card p {
+  font-size: 1rem;
+  margin: 0.5rem 1rem 1rem;
+  line-height: 1.4;
+  font-family: "glochester";
+}
+/*************** footer *********************/
+footer {
+  font-family: "glocester";
+}
+
+footer {
+  background-color: #f9faf2;
+  align-items: center;
+}
+.footer1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer2 {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.aabningstider {
+  padding-top: 10px;
+}
+
+.aabningstid1 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.aabningstid2 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.footerlogo {
+  width: 130px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.social-logo {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-right: -60px;
+}
+
+.socialstab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+.social-logo2 {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-left: -185px;
+}
+
+.sponsor {
+  width: 70px;
+}
+
+@media (max-width: 768px) {
+  .grid-section {
+    grid-template-columns: 1fr;
+  }
+}

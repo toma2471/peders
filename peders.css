@@ -1,0 +1,49 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "glochester";
+  src: url(fonts/gloucester-mt-extra-condensed-webfont.woff2);
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav {
+  background-color: #f9faf2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  width: 100%;
+  z-index: 1000;
+  font-family: "glochester";
+}
+
+.logo {
+  max-width: 100px;
+}
+
+/* Desktop Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #cc6907;
+  font-size: 34px;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #f1e1c6;
+}
