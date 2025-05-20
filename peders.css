@@ -56,3 +56,144 @@ nav {
 .menu li a:hover {
   color: #f1e1c6;
 }
+
+/***********footer*********/
+
+footer {
+  background-color: #f9faf2;
+  align-items: center;
+}
+.footer1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer2 {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.aabningstider {
+  padding-top: 10px;
+}
+
+.aabningstid1 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.aabningstid2 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.footerlogo {
+  width: 130px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.social-logo {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-right: -60px;
+}
+.social-logo:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.socialstab {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Space the items across the footer */
+  padding: 10px 20px; /* Add padding to the footer */
+}
+
+.social-logo2 {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-left: -185px;
+}
+
+.sponsor {
+  width: 70px;
+}
+
+@media (min-width: 800px) {
+  .sponsor {
+    width: 1px;
+  }
+
+  .footerlogo {
+    width: 220px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .social-logo {
+    height: auto;
+    transition: transform 0.2s;
+    width: 70px;
+    margin-right: -430px;
+  }
+
+  .social-logo2 {
+    height: auto;
+    transition: transform 0.2s;
+    width: 80px;
+    margin-left: -305px;
+  }
+
+  footer {
+    background-color: #f9faf2;
+    align-items: center;
+  }
+  .footer1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer2 {
+    text-align: center;
+    line-height: 10px;
+    padding-top: 10px;
+  }
+
+  .aabningstider {
+    padding-top: 50px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .aabningstid1 {
+    line-height: 40px;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .aabningstid2 {
+    line-height: 40px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .footer2 {
+    text-align: center;
+    line-height: 60px;
+    padding-top: 10px;
+    font-size: 40px;
+  }
+
+  .footer1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+}
