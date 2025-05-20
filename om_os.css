@@ -1,16 +1,3 @@
-/*************** Reset *********************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /*************** STYLE *********************/
 
 header {
@@ -234,26 +221,4 @@ footer {
     padding-bottom: 10px;
     font-size: 40px;
   }
-}
-
-/* Desktop Menu */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #cc6907;
-  font-size: 34px;
-  transition: color 0.3s;
-}
-
-.menu li a:hover {
-  color: #f1e1c6;
-}
-
-.logo {
-  width: 60px;
 }
