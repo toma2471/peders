@@ -43,6 +43,76 @@ body {
   margin: 0.5rem 1rem 0;
   font-family: "glochester";
 }
+.did-you-know {
+  padding: 2rem;
+  background-color: #381b0e;
+  color: #f9faf2;
+}
+
+.did-you-know h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.fact-block {
+  background-color: #cc6907;
+  color: #f9faf2;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.fact-block .btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #381b0e;
+  color: #f9faf2;
+  font-weight: bold;
+  font-family: "glochester";
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.fact-block.image-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.fact-block.image-right img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.text-block {
+  background-color: #cc6907;
+  color: #381b0e;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Responsive stacking */
+@media (max-width: 768px) {
+  .fact-block.image-right {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fact-block.image-right img,
+  .text-block {
+    width: 100%;
+    max-width: none;
+  }
+}
+
 /*
 .card p {
   font-size: 1rem;

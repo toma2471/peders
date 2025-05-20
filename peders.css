@@ -8,6 +8,15 @@
   font-family: "glochester";
   src: url(fonts/gloucester-mt-extra-condensed-webfont.woff2);
 }
+
+html {
+  --brun: #381b0e;
+}
+body {
+  /* Backgrundsfarve/ */
+  background-color: var(--brun);
+}
+
 img {
   width: 100%;
   height: auto;
