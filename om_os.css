@@ -214,13 +214,14 @@ footer {
 
   .footer2 {
     text-align: center;
-    line-height: 30px;
+    line-height: 10px;
     padding-top: 10px;
   }
 
   .aabningstider {
     padding-top: 50px;
     font-size: 40px;
+    line-height: 40px;
   }
 
   .aabningstid1 {
