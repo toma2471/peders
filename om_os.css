@@ -13,21 +13,18 @@ p {
 }
 
 h1 {
-  color: white;
+  color: #f9faf2;
   margin: 10px;
   padding-top: 20px;
   font-family: "glocester";
 }
 
 p {
-  color: white;
+  color: #f9faf2;
   font-family: "glocester";
   font-size: 20px;
 }
 
-footer {
-  font-family: "glocester";
-}
 @font-face {
   font-family: "glocester";
   src: url(fonts/gloucester-mt-extra-condensed-webfont.woff2);
@@ -41,97 +38,6 @@ footer {
   display: block;
   padding-top: 20px;
   padding-bottom: 40px;
-}
-
-footer {
-  background-color: #f9faf2;
-  align-items: center;
-}
-.footer1 {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer2 {
-  text-align: center;
-  line-height: 30px;
-  padding-top: 10px;
-}
-
-.aabningstider {
-  padding-top: 10px;
-}
-
-.aabningstid1 {
-  line-height: 20px;
-  padding: 20px;
-}
-
-.aabningstid2 {
-  line-height: 20px;
-  padding: 20px;
-}
-
-.footerlogo {
-  width: 130px;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
-.social-logo {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-right: -60px;
-}
-.social-logo:hover {
-  transform: scale(1.1); /* Slight zoom effect on hover */
-}
-
-.socialstab {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-  justify-content: center; /* Space the items across the footer */
-  padding: 10px 20px; /* Add padding to the footer */
-}
-
-.social-logo2 {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-left: -185px;
-}
-
-.sponsor {
-  width: 70px;
-}
-
-/* Desktop Menu */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #cc6907;
-  font-size: 34px;
-  transition: color 0.3s;
-}
-
-.menu li a:hover {
-  color: #f1e1c6;
-}
-
-.logo {
-  width: 60px;
-}
-
-.findvej {
-  margin-left: 183px;
-  padding-bottom: 20px;
 }
 
 /*************************************/
@@ -148,7 +54,7 @@ footer {
   }
 
   h1 {
-    color: white;
+    color: #f9faf2;
     margin: 10px;
     padding-top: 70px;
     font-family: "glocester";
@@ -157,7 +63,7 @@ footer {
   }
 
   p {
-    color: white;
+    color: #f9faf2;
     font-family: "glocester";
     padding-bottom: 20px;
   }
@@ -177,99 +83,4 @@ footer {
     padding-bottom: 40px;
     align-self: center;
   }
-
-  .sponsor {
-    width: 1px;
-  }
-
-  .footerlogo {
-    width: 220px;
-    margin: 0 auto;
-    padding: 10px 20px;
-  }
-
-  .social-logo {
-    height: auto;
-    transition: transform 0.2s;
-    width: 70px;
-    margin-right: -430px;
-  }
-
-  .social-logo2 {
-    height: auto;
-    transition: transform 0.2s;
-    width: 80px;
-    margin-left: -305px;
-  }
-
-  footer {
-    background-color: #f9faf2;
-    align-items: center;
-  }
-  .footer1 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .footer2 {
-    text-align: center;
-    line-height: 10px;
-    padding-top: 10px;
-  }
-
-  .aabningstider {
-    padding-top: 50px;
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  .aabningstid1 {
-    line-height: 40px;
-    padding: 20px;
-    font-size: 30px;
-    padding-top: 50px;
-  }
-
-  .aabningstid2 {
-    line-height: 40px;
-    padding: 20px;
-    font-size: 30px;
-  }
-
-  .footer2 {
-    text-align: center;
-    line-height: 60px;
-    padding-top: 10px;
-    font-size: 40px;
-  }
-
-  .footer1 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 40px;
-  }
-}
-
-/* Desktop Menu */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #cc6907;
-  font-size: 34px;
-  transition: color 0.3s;
-}
-
-.menu li a:hover {
-  color: #f1e1c6;
-}
-
-.logo {
-  width: 60px;
 }

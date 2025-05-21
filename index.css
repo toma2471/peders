@@ -33,7 +33,9 @@ body {
 
 .card img {
   width: 100%;
-  height: 80%;
+  /* height: 80%; */
+  aspect-ratio: 4/3;
+  object-fit: cover;
   display: block;
   border-bottom: 3px solid #cc6907;
 }
@@ -43,151 +45,90 @@ body {
   margin: 0.5rem 1rem 0;
   font-family: "glochester";
 }
-.did-you-know {
-  padding: 2rem;
-  background-color: #381b0e;
-  color: #f9faf2;
-}
 
-.did-you-know h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.billede2 {
+  width: 100%;
 }
-
-.fact-block {
+.feature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px;
   background-color: #cc6907;
+}
+
+.feature-box {
+  background-color: #3e1e10;
   color: #f9faf2;
-  padding: 1rem;
-  margin-bottom: 2rem;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.feature-box img {
+  max-width: 100%;
   border-radius: 8px;
 }
 
-.fact-block .btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background-color: #381b0e;
-  color: #f9faf2;
+.feature-box h2 {
+  font-size: 60px;
   font-weight: bold;
-  font-family: "glochester";
+  margin-bottom: 15px;
+}
+
+.feature-box li {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.a {
+  text-decoration: none;
+  list-style: none;
+}
+.feature-box .button {
+  background-color: #f9faf2;
+  color: #3e1e10;
   border: none;
-  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  border-radius: 5px;
+  font-weight: bold;
+  align-self: flex-start;
+  list-style: none;
   text-decoration: none;
 }
-
-.fact-block.image-right {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: transparent;
-}
-
-.fact-block.image-right img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-}
-
-.text-block {
+.feature-box .button:hover {
   background-color: #cc6907;
-  color: #381b0e;
-  padding: 1rem;
-  border-radius: 8px;
-  flex: 1;
-  min-width: 200px;
-}
-
-/* Responsive stacking */
-@media (max-width: 768px) {
-  .fact-block.image-right {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .fact-block.image-right img,
-  .text-block {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-/*
-.card p {
-  font-size: 1rem;
-  margin: 0.5rem 1rem 1rem;
-  line-height: 1.4;
-  font-family: "glochester";
-}
-/*************** footer *********************/
-footer {
-  font-family: "glocester";
-}
-
-footer {
-  background-color: #f9faf2;
-  align-items: center;
-}
-.footer1 {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer2 {
-  text-align: center;
-  line-height: 30px;
-  padding-top: 10px;
-}
-
-.aabningstider {
-  padding-top: 10px;
-}
-
-.aabningstid1 {
-  line-height: 20px;
-  padding: 20px;
-}
-
-.aabningstid2 {
-  line-height: 20px;
-  padding: 20px;
-}
-
-.footerlogo {
-  width: 130px;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
-.social-logo {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-right: -60px;
-}
-
-.socialstab {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-}
-
-.social-logo2 {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-left: -185px;
-}
-
-.sponsor {
-  width: 70px;
+  color: #3e1e10;
+  list-style: none;
 }
 
 @media (max-width: 768px) {
   .grid-section {
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 800px) {
+  .feature-section {
+    grid-template-columns: 1fr;
+  }
+  .featured {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .featured img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .featured-text {
+    max-width: 100%;
   }
 }
