@@ -54,11 +54,11 @@ form {
 }
 .submit .button:hover {
   background-color: #cc6907;
-  color: #ffffff;
+  color: #f9faf2;
   list-style: none;
 }
 form h2 {
-  text-align: start;
+  text-align: center;
   padding-left: 35px;
   line-height: 40px;
 }
@@ -66,54 +66,12 @@ form h2 {
 .text1 {
   padding-top: 30px;
   padding-bottom: 20px;
-  line-height: 35px;
 }
 
 .text2 {
   padding-top: 20px;
 }
 
-.footer1 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.footer2 {
-  text-align: center;
-}
-
-.footerlogo {
-  width: 130px;
-  height: auto;
-
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-}
-
-.untappd {
-  width: 200px;
-}
-
-.aabningstider {
-  padding-top: 10px;
-}
-
-.aabningstid1 {
-  line-height: 5px;
-  padding: 20px;
-}
-
-.aabningstid2 {
-  line-height: 5px;
-}
-
-hr {
-  width: 27rem;
-  background-color: black;
-  height: 1.3px;
-}
 /*************************desktop***********************/
 
 @media (min-width: 800px) {
@@ -202,16 +160,6 @@ main {
 
 header {
   background-color: #f9faf2;
-}
-
-footer {
-  background-color: #f9faf2;
-}
-
-.footer2 a {
-  text-decoration: none;
-  color: #000000;
-  text-decoration: underline;
 }
 
 @font-face {
