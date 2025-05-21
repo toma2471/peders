@@ -4,6 +4,18 @@ header {
   background-color: #f9faf2;
 }
 
+.underline1omos {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
+}
+
+.underline2omos {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
+}
+
 main {
   background-color: #381b0e;
 }
@@ -43,6 +55,9 @@ p {
   padding-bottom: 20px;
   text-align: center;
   font-size: 80px;
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
 }
 
 /*************************************/
