@@ -72,6 +72,17 @@ form h2 {
   padding-top: 20px;
 }
 
+.underline1book {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
+}
+
+.underline2book {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
+}
 /*************************desktop***********************/
 
 @media (min-width: 800px) {
