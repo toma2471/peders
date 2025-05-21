@@ -31,18 +31,23 @@ p {
 }
 
 .googlemap {
-  width: 300px;
-  height: 220px;
+  width: 800px;
+  height: 400px;
   border: 0;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
   padding-bottom: 40px;
 }
+.findvej {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 80px;
+}
 
 /*************************************/
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   main {
     background-color: #381b0e;
   }
@@ -69,8 +74,8 @@ p {
   }
 
   .googlemap {
-    width: 800px;
-    height: 700px;
+    width: auto;
+    height: auto;
     border: 0;
     margin: 0 auto;
     display: block;
@@ -79,8 +84,7 @@ p {
   }
 
   .findvej {
-    margin-left: 620px;
     padding-bottom: 40px;
-    align-self: center;
+    text-align: center;
   }
 }
