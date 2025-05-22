@@ -63,15 +63,12 @@ form h2 {
   line-height: 40px;
 }
 
-.text1 {
-  padding-bottom: 20px;
+.text1 div {
+  padding-bottom: 50px;
   line-height: 40px;
-
-}
-
-.text2 {
-  padding-top: 20px;
-  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .underline1book {
@@ -197,9 +194,5 @@ header {
     color: white;
     font-size: 1.7rem;
     font-family: "glocester";
-  }
-
-  form h2 {
-    font-size: 40px;
   }
 }
