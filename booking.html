@@ -15,7 +15,10 @@
     <header>
         <nav>
             <a href="index.html">
-                <img src="billeder/pedersslogo.png" alt="logo" class="logo">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+                    type="module"></script>
+                <dotlottie-player src="https://lottie.host/b1bad141-a09b-4696-9af6-59f9aa58fa99/i2stiwCkzQ.lottie"
+                    background="transparent" speed="1" loop autoplay></dotlottie-player>
             </a>
             <ul class="menu">
                 <li><a href="menu.html">Menu</a></li>
@@ -27,12 +30,9 @@
         </nav>
     </header>
 
-
     <main>
         <section class="text1">
-
             <h1>Booking</h1>
-
 
             <div>
                 <p> Har du en forespørgesel til om vi kan arrange en smagning eller vil du være sikker på, at der er
@@ -49,7 +49,52 @@
 
         </section>
 
-        <section class="form">
+        <section>
+            <div>
+                <label>
+                    <h2>Bordreservartion</h2>
+                    Antal gæster
+                    <select name="liste" id="">
+                        <option value="">Vælg antal personer</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Dato
+                    <select name="liste" id="">
+                        <option value="">Vælg dato</option>
+                        <option value=""></option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </label>
+            </div>
+
+        </section>
+
+        <section>
             <div>
                 <form>
                     <h2>Navn</h2>
@@ -59,21 +104,14 @@
 
             <div>
                 <form>
-                    <h2>Dato</h2>
-                    <input type="text" id="datoform" name="dato"><br>
-                </form>
-            </div>
-
-            <div>
-                <form>
-                    <h2>Antal personer</h2>
+                    <h2>Telefon</h2>
                     <input type="text" id="apform" name="antalpersoner"><br>
                 </form>
             </div>
 
             <div>
                 <form>
-                    <h2>Booking Type</h2>
+                    <h2>Email</h2>
                     <input type="text" id="btform" name="bookingtype"><br>
                 </form>
             </div>
@@ -82,29 +120,10 @@
                 <a href="index.html" class="button">Indsend</a>
             </div>
 
-
-
         </section>
 
-        <section class="text2">
-            <div>
-                <h1>Fadølsanlæg - Leje</h1>
-            </div>
-            <div>
-                <p>Skal du holde fest, fejre noget stort – eller bare sørge for, at dine venner ikke løber tør for kolde
-                    øl? Så kan du leje
-                    et fadølsanlæg direkte fra Peders!
-
-                    Vi tilbyder en nem og fleksibel løsning til dig, der vil bringe barstemningen hjem i stuen, til
-                    gårdfesten, kontoret
-                    eller kolonihaven. Og bare rolig – det er hverken svært eller teknisk. Vi hjælper dig godt i gang,
-                    så du hurtigt kan få
-                    tappet den første øl.</p>
-            </div>
-        </section>
 
     </main>
-
 
     <footer>
         <div class="footer1">
