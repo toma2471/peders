@@ -1,20 +1,19 @@
-/*************** Reset *********************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /*************** STYLE *********************/
 
 header {
   background-color: #f9faf2;
+}
+
+.underline1omos {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
+}
+
+.underline2omos {
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
 }
 
 main {
@@ -26,130 +25,90 @@ p {
 }
 
 h1 {
-  color: white;
-  margin: 10px;
-  padding-top: 10px;
+  color: #f9faf2;
+  margin: 40px;
+  padding-top: 20px;
   font-family: "glocester";
+  font-size: 58px;
 }
 
 p {
-  color: white;
+  color: #f9faf2;
   font-family: "glocester";
+  font-size: 30px;
+  margin: 5px;
 }
 
-footer {
-  font-family: "glocester";
-}
 @font-face {
   font-family: "glocester";
   src: url(fonts/gloucester-mt-extra-condensed-webfont.woff2);
 }
 
 .googlemap {
-  width: 300px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   border: 0;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
-
-footer {
-  background-color: #f9faf2;
-  align-items: center;
-}
-.footer1 {
+.findvej {
+  padding-bottom: 20px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.footer2 {
-  text-align: center;
-  line-height: 30px;
-  padding-top: 10px;
-}
-
-.aabningstider {
-  padding-top: 10px;
+  font-size: 80px;
+  border-bottom: 2px solid #cc6907;
+  display: inline-block; /* so the border fits the text width */
+  padding-bottom: 5px;
 }
 
 .aabningstid1 {
-  line-height: 20px;
-  padding: 20px;
+  font-family: "glocester";
 }
 
 .aabningstid2 {
-  line-height: 20px;
-  padding: 20px;
+  font-family: "glocester";
 }
 
-.footerlogo {
-  width: 130px;
-  margin: 0 auto;
-  padding: 10px 20px;
+.footer1 {
+  font-family: "glocester";
 }
 
-.social-logo {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-right: -60px;
-}
-.social-logo:hover {
-  transform: scale(1.1); /* Slight zoom effect on hover */
-}
-
-.socialstab {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-  justify-content: center; /* Space the items across the footer */
-  padding: 10px 20px; /* Add padding to the footer */
-}
-
-.social-logo2 {
-  height: auto;
-  transition: transform 0.2s;
-  width: 55px;
-  margin-left: -185px;
-}
-
-.sponsor {
-  width: 70px;
+.footer2 {
+  font-family: "glocester";
 }
 
 /*************************************/
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   main {
     background-color: #381b0e;
   }
 
   p {
     padding: 35px;
-    font-size: 28px;
+    font-size: 23px;
     margin-left: 7px;
   }
 
   h1 {
-    color: white;
+    color: #f9faf2;
     margin: 10px;
     padding-top: 70px;
     font-family: "glocester";
-    font-size: 70px;
+    font-size: 50px;
     margin-left: 40px;
   }
 
   p {
-    color: white;
+    color: #f9faf2;
     font-family: "glocester";
     padding-bottom: 20px;
   }
 
   .googlemap {
-    width: 800px;
-    height: 700px;
+    width: auto;
+    height: auto;
     border: 0;
     margin: 0 auto;
     display: block;
@@ -158,102 +117,8 @@ footer {
   }
 
   .findvej {
-    margin-left: 620px;
     padding-bottom: 40px;
-    align-self: center;
-  }
-
-  .sponsor {
-    width: 1px;
-  }
-
-  .footerlogo {
-    width: 220px;
-    margin: 0 auto;
-    padding: 10px 20px;
-  }
-
-  .social-logo {
-    height: auto;
-    transition: transform 0.2s;
-    width: 70px;
-    margin-right: -430px;
-  }
-
-  .social-logo2 {
-    height: auto;
-    transition: transform 0.2s;
-    width: 80px;
-    margin-left: -305px;
-  }
-
-  footer {
-    background-color: #f9faf2;
-    align-items: center;
-  }
-  .footer1 {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 9px;
   }
-
-  .footer2 {
-    text-align: center;
-    line-height: 30px;
-    padding-top: 10px;
-  }
-
-  .aabningstider {
-    padding-top: 50px;
-    font-size: 40px;
-  }
-
-  .aabningstid1 {
-    line-height: 40px;
-    padding: 20px;
-    font-size: 30px;
-    padding-top: 50px;
-  }
-
-  .aabningstid2 {
-    line-height: 40px;
-    padding: 20px;
-    font-size: 30px;
-  }
-
-  .footer2 {
-    text-align: center;
-    line-height: 60px;
-    padding-top: 10px;
-    font-size: 40px;
-  }
-
-  .footer1 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 40px;
-  }
-}
-
-/* Desktop Menu */
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #cc6907;
-  font-size: 34px;
-  transition: color 0.3s;
-}
-
-.menu li a:hover {
-  color: #f1e1c6;
-}
-
-.logo {
-  width: 60px;
 }

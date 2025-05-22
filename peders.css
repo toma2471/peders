@@ -8,8 +8,17 @@
   font-family: "glochester";
   src: url(fonts/gloucester-mt-extra-condensed-webfont.woff2);
 }
+
+html {
+  --brun: #381b0e;
+}
+body {
+  /* Backgrundsfarve/ */
+  background-color: var(--brun);
+}
+
 img {
-  width: 100%;
+  width: 25%;
   height: auto;
   display: block;
 }
@@ -27,7 +36,7 @@ nav {
 }
 
 .logo {
-  max-width: 100px;
+  width: 70px;
 }
 
 /* Desktop Menu */
@@ -46,4 +55,166 @@ nav {
 
 .menu li a:hover {
   color: #f1e1c6;
+}
+
+dotlottie-player {
+  width: 70px;
+}
+/***********footer*********/
+
+footer {
+  background-color: #f9faf2;
+  align-items: center;
+}
+.footer1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer2 {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px;
+}
+
+.aabningstider {
+  padding-top: 10px;
+}
+
+.aabningstid1 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.aabningstid2 {
+  line-height: 20px;
+  padding: 20px;
+}
+
+.footerlogo {
+  width: 130px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.social-logo {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-right: -60px;
+}
+.social-logo:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.socialstab {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: center; /* Space the items across the footer */
+  padding: 10px 20px; /* Add padding to the footer */
+}
+
+.social-logo2 {
+  height: auto;
+  transition: transform 0.2s;
+  width: 55px;
+  margin-left: -185px;
+}
+
+.sponsor {
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .sponsor {
+    width: 200px;
+  }
+
+  .footerlogo {
+    width: 220px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .social-logo {
+    height: auto;
+    transition: transform 0.2s;
+    width: 70px;
+    margin-right: -430px;
+  }
+
+  .social-logo2 {
+    height: auto;
+    transition: transform 0.2s;
+    width: 80px;
+    margin-left: -305px;
+  }
+
+  footer {
+    background-color: #f9faf2;
+    align-items: center;
+  }
+  .footer1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer2 {
+    text-align: center;
+
+    padding-top: 10px;
+  }
+
+  .aabningstider {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+
+  .aabningstid1 {
+    padding: 20px;
+    font-size: 19px;
+    padding-top: 30px;
+  }
+
+  .aabningstid2 {
+    padding: 10px;
+    font-size: 19px;
+  }
+
+  .footer2 {
+    text-align: center;
+
+    padding-top: 5px;
+    font-size: 19px;
+  }
+
+  .footer1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .menu li a {
+    text-decoration: none;
+    color: #cc6907;
+    font-size: 34px;
+    transition: color 0.3s;
+  }
+
+  .menu li a:hover {
+    color: #f1e1c6;
+  }
+  .logo {
+    max-width: 350px;
+  }
 }
