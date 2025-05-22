@@ -111,6 +111,11 @@ body {
   list-style: none;
 }
 
+.vidstedulink {
+  color: #f9faf2;
+  list-style: none;
+}
+
 @media (max-width: 768px) {
   .grid-section {
     grid-template-columns: 1fr;
