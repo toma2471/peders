@@ -18,7 +18,7 @@ body {
 }
 
 img {
-  width: 25%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -62,9 +62,16 @@ dotlottie-player {
 }
 /***********footer*********/
 
+.followuson {
+  font-family: "glochester";
+  padding-top: 8px;
+  font-size: 35px;
+  text-align: center;
+}
+
 /* Style for the address link */
 .address-link {
-  color: #000; /* Default color (black) */
+  color: #381b0e; /* Default color (black) */
   text-decoration: none; /* Remove underline */
   transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
 }
@@ -77,7 +84,7 @@ dotlottie-player {
 }
 
 .email-link {
-  color: black; /* Highlight color */
+  color: #381b0e; /* Highlight color */
   text-decoration: none; /* Remove underline */
 }
 footer {
@@ -116,33 +123,25 @@ footer {
 }
 
 .footerlogo {
-  width: 130px;
+  width: 200px;
   margin: 0 auto;
   padding: 10px 20px;
 }
 
 .social-logo {
-  height: auto;
   transition: transform 0.2s;
-  width: 55px;
-  margin-right: -60px;
 }
 .social-logo:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
 .socialstab {
-  display: flex;
-  align-items: center; /* Vertically center the items */
-  justify-content: center; /* Space the items across the footer */
-  padding: 10px 20px; /* Add padding to the footer */
+  gap: 1rem;
 }
 
 .social-logo2 {
-  height: auto;
+  order: -1;
   transition: transform 0.2s;
-  width: 55px;
-  margin-left: -185px;
 }
 
 .sponsor {
@@ -183,28 +182,36 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "glochester";
+    color: #381b0e;
   }
 
   .footer2 {
     text-align: center;
-
+    font-family: "glochester";
     padding-top: 10px;
+    color: #381b0e;
   }
 
   .aabningstider {
     padding-top: 30px;
     font-size: 25px;
+    font-family: "glochester";
+    color: #381b0e;
   }
 
   .aabningstid1 {
     padding: 20px;
     font-size: 19px;
     padding-top: 30px;
+    font-family: "glochester";
+    color: #381b0e;
   }
 
   .aabningstid2 {
     padding: 10px;
     font-size: 19px;
+    color: #381b0e;
   }
 
   .footer2 {
