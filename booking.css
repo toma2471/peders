@@ -64,12 +64,14 @@ form h2 {
 }
 
 .text1 {
-  padding-top: 30px;
   padding-bottom: 20px;
+  line-height: 40px;
+
 }
 
 .text2 {
   padding-top: 20px;
+  line-height: 40px;
 }
 
 .underline1book {
@@ -149,7 +151,7 @@ h1 {
   color: white;
   font-size: 2.8rem;
   font-family: "glocester";
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-top: 50px;
 }
 
@@ -162,7 +164,7 @@ h2 {
 p {
   color: white;
   font-size: 1.7rem;
-  font-family: "Franklin Gothic Medium", "Arial", Arial, sans-serif;
+  font-family: "glocester";
 }
 
 main {
@@ -194,7 +196,7 @@ header {
   p {
     color: white;
     font-size: 1.7rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "glocester";
   }
 
   form h2 {

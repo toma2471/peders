@@ -15,7 +15,11 @@
     <header>
         <nav>
             <a href="index.html">
-                <img src="billeder/peders.webp" alt="logo" class="logo">
+                <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+                    type="module"></script>
+                <dotlottie-player src="https://lottie.host/b1bad141-a09b-4696-9af6-59f9aa58fa99/i2stiwCkzQ.lottie"
+                    background="transparent" speed="1" loop autoplay></dotlottie-player>
+
             </a>
             <ul class="menu">
                 <li><a href="menu.html">Menu</a></li>
@@ -27,9 +31,9 @@
         </nav>
     </header>
 
-
     <main>
         <section class="text1">
+
 
             <h1 class="underline1book"> Booking </h1>
 
@@ -49,7 +53,52 @@
 
         </section>
 
-        <section class="form">
+        <section>
+            <div>
+                <label>
+                    <h2>Bordreservartion</h2>
+                    Antal gæster
+                    <select name="liste" id="">
+                        <option value="">Vælg antal personer</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Dato
+                    <select name="liste" id="">
+                        <option value="">Vælg dato</option>
+                        <option value=""></option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </label>
+            </div>
+
+        </section>
+
+        <section>
             <div>
                 <form>
                     <h2>Navn</h2>
@@ -59,21 +108,14 @@
 
             <div>
                 <form>
-                    <h2>Dato</h2>
-                    <input type="text" id="datoform" name="dato"><br>
-                </form>
-            </div>
-
-            <div>
-                <form>
-                    <h2>Antal personer</h2>
+                    <h2>Telefon</h2>
                     <input type="text" id="apform" name="antalpersoner"><br>
                 </form>
             </div>
 
             <div>
                 <form>
-                    <h2>Booking Type</h2>
+                    <h2>Email</h2>
                     <input type="text" id="btform" name="bookingtype"><br>
                 </form>
             </div>
@@ -82,9 +124,8 @@
                 <a href="index.html" class="button">Indsend</a>
             </div>
 
-
-
         </section>
+
 
         <section class="text2">
             <div>
@@ -104,7 +145,6 @@
         </section>
 
     </main>
-
 
     <footer>
 
