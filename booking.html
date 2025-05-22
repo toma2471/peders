@@ -32,12 +32,8 @@
     </header>
 
     <main>
+        <h1 class="underline1book"> Booking </h1>
         <section class="text1">
-
-
-            <h1 class="underline1book"> Booking </h1>
-
-
             <div>
                 <p> Har du en forespørgesel til om vi kan arrange en smagning eller vil du være sikker på, at der er
                     plads til dig og dit selskab, når tørsten melder sig?
@@ -51,15 +47,43 @@
                 </p>
             </div>
 
+            <div>
+                <h2>Bordreservartion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere provident voluptate ad pariatur
+                    harum. Unde, quis obcaecati quidem natus, magni numquam similique ab delectus quod ex repellat.
+                    Adipisci, consectetur.</p>
+
+                <h2>Ølsmagning</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est unde nisi atque mollitia expedita
+                    debitis odit ullam excepturi modi rerum quisquam in temporibus numquam, quae delectus voluptas
+                    labore
+                    non!</p>
+
+                <h2>Udlejning</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nobis ipsa dolorum aspernatur numquam
+                    sit
+                    eaque? Cum dolore autem nesciunt ab. Corrupti fuga ab debitis sit incidunt ipsa, animi ipsam!</p>
+            </div>
         </section>
 
         <section>
             <div>
                 <label>
-                    <h2>Bordreservartion</h2>
-                    Antal gæster
+                    <h2>Bookingtype</h2>
                     <select name="liste" id="">
-                        <option value="">Vælg antal personer</option>
+                        <option value="">Vælg bookingtype</option>
+                        <option value="Bordreservartion">Bordreservartion</option>
+                        <option value="Ølsmagning">Ølsmagning</option>
+                        <option value="Udlejning">Udlejning</option>
+                    </select>
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <p>Antal gæster</p>
+                    <select name="liste" id="">
+                        <option value="">Vælg antal gæster</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -75,24 +99,11 @@
                     </select>
                 </label>
             </div>
+
             <div>
                 <label>
-                    Dato
-                    <select name="liste" id="">
-                        <option value="">Vælg dato</option>
-                        <option value=""></option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
+                    <p>Vælg dato</p>
+                    <input id="date" name="date" type="date">
                 </label>
             </div>
 
@@ -102,46 +113,36 @@
             <div>
                 <form>
                     <h2>Navn</h2>
-                    <input type="text" id="navnform" name="navn"><br>
+                    <input type="text" id="navnform" name="navn">
                 </form>
             </div>
 
             <div>
-                <form>
+                <form for="telefon">
                     <h2>Telefon</h2>
-                    <input type="text" id="apform" name="antalpersoner"><br>
+                    <input type="tel" id="telefon" name="telefon" placeholder="+45 12 34 56 78" inputmode="numeric"
+                        pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                 </form>
-            </div>
 
+            </div>
             <div>
                 <form>
                     <h2>Email</h2>
-                    <input type="text" id="btform" name="bookingtype"><br>
+                    <input type="text" id="btform" name="bookingtype">
                 </form>
+            </div>
+            <div>
+                <label for="beskriv_dit_ønske">
+                    <h2>Beskriv dit Ønske</h2>
+                    <textarea name="Beskriv" id="Beskriv" cols="50" rows="10"></textarea>
+                </label>
+
             </div>
 
             <div class="submit">
                 <a href="index.html" class="button">Indsend</a>
             </div>
 
-        </section>
-
-
-        <section class="text2">
-            <div>
-                <h1 class="underline2book">Fadølsanlæg - Leje</h1>
-            </div>
-            <div>
-                <p>Skal du holde fest, fejre noget stort – eller bare sørge for, at dine venner ikke løber tør for kolde
-                    øl? Så kan du leje
-                    et fadølsanlæg direkte fra Peders!
-
-                    Vi tilbyder en nem og fleksibel løsning til dig, der vil bringe barstemningen hjem i stuen, til
-                    gårdfesten, kontoret
-                    eller kolonihaven. Og bare rolig – det er hverken svært eller teknisk. Vi hjælper dig godt i gang,
-                    så du hurtigt kan få
-                    tappet den første øl.</p>
-            </div>
         </section>
 
     </main>
