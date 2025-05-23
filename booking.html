@@ -67,7 +67,7 @@
         </section>
 
         <section>
-            <div>
+            <div class="bookingtype">
                 <label>
                     <h2>Bookingtype</h2>
                     <select name="liste" id="">
@@ -79,9 +79,9 @@
                 </label>
             </div>
 
-            <div>
+            <div class="antalgæster">
                 <label>
-                    <p>Antal gæster</p>
+                    <h2>Antal gæster</h2>
                     <select name="liste" id="">
                         <option value="">Vælg antal gæster</option>
                         <option value="1">1</option>
@@ -100,11 +100,11 @@
                 </label>
             </div>
 
-            <div>
-                <label>
-                    <p>Vælg dato</p>
-                    <input id="date" name="date" type="date">
+            <div class="vælgdato">
+                <label for="date">
+                    <h2>Vælg dato</h2>
                 </label>
+                <input id="date" name="date" type="date" required>
             </div>
 
         </section>
@@ -113,8 +113,10 @@
             <div>
                 <form>
                     <h2>Navn</h2>
-                    <input type="text" id="navnform" name="navn">
+                    <input type="text" id="navn" name="navn" pattern="[A-Za-zÆØÅæøå\s]+" placeholder="Fulde Navn"
+                        title="Kun bogstaver og mellemrum" required>
                 </form>
+
             </div>
 
             <div>
@@ -128,13 +130,13 @@
             <div>
                 <form>
                     <h2>Email</h2>
-                    <input type="text" id="btform" name="bookingtype">
+                    <input type="email" id="email" name="bookingtype" required>
                 </form>
             </div>
             <div>
                 <label for="beskriv_dit_ønske">
                     <h2>Beskriv dit Ønske</h2>
-                    <textarea name="Beskriv" id="Beskriv" cols="50" rows="10"></textarea>
+                    <textarea name="Beskriv" id="beskriv" cols="50" rows="10"></textarea>
                 </label>
 
             </div>
@@ -206,6 +208,12 @@
 
 
     <script src="index.js"></script>
+
+    <script>
+        document.getElementById('navnform').addEventListener('input', function (e) {
+            this.value = this.value.replace(/[^A-Za-zÆØÅæøå\s]/g, '');
+        });
+    </script>
 
 </body>
 
