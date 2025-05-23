@@ -11,22 +11,6 @@ form {
   padding-top: 40px;
 }
 
-#navn {
-  width: 425px;
-  height: 30px;
-  font-size: 18px;
-}
-#telefon {
-  width: 425px;
-  height: 30px;
-  font-size: 18px;
-}
-#email {
-  width: 425px;
-  height: 30px;
-  font-size: 18px;
-}
-
 .bookingtype select {
   font-size: 1.2rem;
   padding: 0.75rem 1rem;
@@ -57,6 +41,56 @@ form {
   box-sizing: border-box;
 }
 
+.navn input {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#navn {
+  width: 425px;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.telefon input {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#telefon {
+  width: 425px;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.email input {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#email {
+  width: 425px;
+  height: 30px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#beskriv {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .submit {
   padding-top: 40px;
 }
@@ -79,8 +113,7 @@ form {
   color: #f9faf2;
 }
 form {
-  text-align: center;
-  line-height: 40px;
+  line-height: 50px;
 }
 
 .text1 div {
