@@ -6,37 +6,36 @@ header {
 
 .underline1omos {
   border-bottom: 2px solid #cc6907;
-  display: inline-block; /* so the border fits the text width */
+  display: inline-block;
   padding-bottom: 5px;
+  padding-left: 2.7rem;
 }
 
 .underline2omos {
   border-bottom: 2px solid #cc6907;
-  display: inline-block; /* so the border fits the text width */
+  display: inline-block;
   padding-bottom: 5px;
+  padding-left: 2.7rem;
 }
 
 main {
   background-color: #381b0e;
 }
 
-p {
-  padding: 35px;
-}
-
 h1 {
   color: #f9faf2;
-  margin: 40px;
-  padding-top: 20px;
+  margin-block: 0.5rem;
   font-family: "glocester";
   font-size: 58px;
+  padding-left: 2.7rem;
 }
 
 p {
   color: #f9faf2;
   font-family: "glocester";
-  font-size: 30px;
-  margin: 5px;
+  font-size: 1.7rem;
+  margin-block: 2rem;
+  padding-left: 2.6rem;
 }
 
 @font-face {
@@ -86,24 +85,19 @@ p {
   }
 
   p {
-    padding: 35px;
     font-size: 23px;
     margin-left: 7px;
+    color: #f9faf2;
+    font-family: "glocester";
+    padding-bottom: 1rem;
   }
 
   h1 {
     color: #f9faf2;
-    margin: 10px;
+
     padding-top: 70px;
     font-family: "glocester";
     font-size: 50px;
-    margin-left: 40px;
-  }
-
-  p {
-    color: #f9faf2;
-    font-family: "glocester";
-    padding-bottom: 20px;
   }
 
   .googlemap {
