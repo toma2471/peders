@@ -9,32 +9,55 @@ main {
 
 form {
   padding-top: 40px;
-  text-align: center;
 }
 
-#navnform {
+#navn {
   width: 425px;
   height: 30px;
   font-size: 18px;
 }
-#datoform {
+#telefon {
   width: 425px;
   height: 30px;
   font-size: 18px;
 }
-#apform {
+#email {
   width: 425px;
   height: 30px;
   font-size: 18px;
 }
-#btform {
-  width: 425px;
-  height: 30px;
-  font-size: 18px;
+
+.bookingtype select {
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.antalgæster select {
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.vælgdato input {
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
 .submit {
-  text-align: center;
   padding-top: 40px;
 }
 
@@ -42,24 +65,21 @@ form {
   background-color: #f9faf2;
   color: #381b0e;
   text-align: center;
-  border: none;
-  padding: 10px 15px;
-  font-size: 16px;
+  padding: 10px 20px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 3px;
   font-weight: bold;
   align-self: flex-start;
-  list-style: none;
   text-decoration: none;
+  font-family: "glocester";
 }
 .submit .button:hover {
   background-color: #cc6907;
   color: #f9faf2;
-  list-style: none;
 }
-form h2 {
+form {
   text-align: center;
-  padding-left: 35px;
   line-height: 40px;
 }
 
