@@ -69,23 +69,21 @@ dotlottie-player {
   text-align: center;
 }
 
-/* Style for the address link */
 .address-link {
-  color: #381b0e; /* Default color (black) */
-  text-decoration: none; /* Remove underline */
-  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+  color: #381b0e;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect for the address link */
 .address-link:hover {
-  color: #cc6907; /* Change color on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  text-decoration: underline; /* Underline the link when hovered */
+  color: #cc6907;
+  transform: scale(1.05);
+  text-decoration: underline;
 }
 
 .email-link {
-  color: #381b0e; /* Highlight color */
-  text-decoration: none; /* Remove underline */
+  color: #381b0e;
+  text-decoration: none;
 }
 footer {
   background-color: #f9faf2;
@@ -98,8 +96,8 @@ footer {
 }
 
 .email-link:hover {
-  text-decoration: underline; /* Underline on hover */
-  color: #cc6907; /* Change color on hover */
+  text-decoration: underline;
+  color: #cc6907;
 }
 
 .footer2 {
@@ -132,16 +130,28 @@ footer {
   transition: transform 0.2s;
 }
 .social-logo:hover {
-  transform: scale(1.1); /* Slight zoom effect on hover */
+  transform: scale(1.1);
 }
 
 .socialstab {
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  align-items: center;
 }
 
-.social-logo2 {
+.forrest {
   order: -1;
-  transition: transform 0.2s;
+}
+
+.micon {
+  width: 200px;
+}
+
+.sicon {
+  width: 75px;
+  height: 75px;
 }
 
 .sponsor {
@@ -251,18 +261,16 @@ footer {
 
 /******header****/
 
-/* Link styling */
 a.nav-link {
-  color: black; /* Text color */
+  color: black;
   text-decoration: none;
   font-size: 18px;
   position: relative;
-  padding-bottom: 5px; /* Space for the underline */
+  padding-bottom: 5px;
 }
 
-/* Underline on hover */
 a.nav-link:hover {
-  color: #cc6907; /* Color on hover */
+  color: #cc6907;
 }
 
 a.nav-link::after {
@@ -270,7 +278,7 @@ a.nav-link::after {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #cc6907; /* Line color */
+  background-color: #cc6907;
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -278,19 +286,16 @@ a.nav-link::after {
   transition: transform 0.3s ease-out;
 }
 
-/* Show the underline on hover */
 a.nav-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/* Active link underline (stay under active link) */
 a.nav-link.active::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
-/* Optional: Color for the active link */
 a.nav-link.active {
-  color: #cc6907; /* Active link color */
+  color: #cc6907;
 }
