@@ -48,18 +48,18 @@
             </div>
 
             <div>
-                <h2>Bordreservartion</h2>
+                <h2 class="underline2book"> Bordreservartion</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis facere provident voluptate ad pariatur
                     harum. Unde, quis obcaecati quidem natus, magni numquam similique ab delectus quod ex repellat.
                     Adipisci, consectetur.</p>
 
-                <h2>Ølsmagning</h2>
+                <h2 class="underline2book">Ølsmagning</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est unde nisi atque mollitia expedita
                     debitis odit ullam excepturi modi rerum quisquam in temporibus numquam, quae delectus voluptas
                     labore
                     non!</p>
 
-                <h2>Udlejning</h2>
+                <h2 class="underline2book">Udlejning</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nobis ipsa dolorum aspernatur numquam
                     sit
                     eaque? Cum dolore autem nesciunt ab. Corrupti fuga ab debitis sit incidunt ipsa, animi ipsam!</p>
@@ -68,21 +68,21 @@
 
         <section>
             <div class="bookingtype">
-                <label>
+                <form>
                     <h2>Bookingtype</h2>
-                    <select name="liste" id="">
+                    <select name="liste" id="bookingtype">
                         <option value="">Vælg bookingtype</option>
                         <option value="Bordreservartion">Bordreservartion</option>
                         <option value="Ølsmagning">Ølsmagning</option>
                         <option value="Udlejning">Udlejning</option>
                     </select>
-                </label>
+                </form>
             </div>
 
             <div class="antalgæster">
-                <label>
+                <form>
                     <h2>Antal gæster</h2>
-                    <select name="liste" id="">
+                    <select name="liste" id="antalgæster">
                         <option value="">Vælg antal gæster</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -97,52 +97,55 @@
                         <option value="11">11</option>
                         <option value="12">12</option>
                     </select>
-                </label>
+                </form>
             </div>
 
             <div class="vælgdato">
-                <label for="date">
+                <form>
                     <h2>Vælg dato</h2>
-                </label>
-                <input id="date" name="date" type="date" required>
+                    <input id="date" name="date" type="date" required>
+                </form>
             </div>
 
         </section>
 
         <section>
-            <div>
+
+            <div class="navn">
                 <form>
                     <h2>Navn</h2>
-                    <input type="text" id="navn" name="navn" pattern="[A-Za-zÆØÅæøå\s]+" placeholder="Fulde Navn"
-                        title="Kun bogstaver og mellemrum" required>
+                    <input type="text" id="navn" name="navn" pattern="[A-Za-zÆØÅæøå\s]+"
+                        placeholder="Skriv dit fulde navn" title="Kun bogstaver og mellemrum" required>
                 </form>
 
             </div>
 
-            <div>
-                <form for="telefon">
+            <div class="telefon">
+                <form>
                     <h2>Telefon</h2>
-                    <input type="tel" id="telefon" name="telefon" placeholder="+45 12 34 56 78" inputmode="numeric"
-                        pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                    <input type="tel" id="telefon" name="telefon" placeholder="Skriv dit telefonnummer"
+                        inputmode="numeric" pattern="[0-9]*" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                 </form>
 
             </div>
-            <div>
+
+            <div class="email">
                 <form>
                     <h2>Email</h2>
-                    <input type="email" id="email" name="bookingtype" required>
+                    <input type="email" id="email" name="bookingtype" required placeholder="Skriv din email">
                 </form>
             </div>
-            <div>
-                <label for="beskriv_dit_ønske">
-                    <h2>Beskriv dit Ønske</h2>
-                    <textarea name="Beskriv" id="beskriv" cols="50" rows="10"></textarea>
-                </label>
+
+            <div class="beskriv">
+                <form>
+                    <h2>Beskriv dit ønske</h2>
+                    <textarea name="beskriv" id="beskriv" cols="50" rows="10"></textarea>
+                </form>
 
             </div>
 
             <div class="submit">
-                <a href="index.html" class="button">Indsend</a>
+                <a href="booking.html" class="button">Indsend</a>
             </div>
 
         </section>
