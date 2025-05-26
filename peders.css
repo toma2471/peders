@@ -61,24 +61,27 @@ dotlottie-player {
   width: 70px;
 }
 /***********footer*********/
-
+h3 {
+  color: #381b0e;
+  font-size: 2rem;
+  font-family: "glocester";
+}
 .followuson {
   font-family: "glochester";
   padding-top: 8px;
   font-size: 35px;
   text-align: center;
+  color: #381b0e;
 }
 
 .address-link {
   color: #381b0e;
   text-decoration: none;
-  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .address-link:hover {
-  color: #cc6907;
-  transform: scale(1.05);
   text-decoration: underline;
+  color: #cc6907;
 }
 
 .email-link {
@@ -159,7 +162,11 @@ footer {
 
 @media (max-width: 800px) {
   /***********footer*********/
-
+  h3 {
+    color: #381b0e;
+    font-size: 1.5rem;
+    font-family: "glocester";
+  }
   .followuson {
     font-family: "glochester";
     padding-top: 8px;
