@@ -102,7 +102,7 @@ footer {
 
 .footer2 {
   text-align: center;
-  line-height: 30px;
+
   padding-top: 10px;
 }
 
@@ -111,12 +111,10 @@ footer {
 }
 
 .aabningstid1 {
-  line-height: 20px;
   padding: 20px;
 }
 
 .aabningstid2 {
-  line-height: 20px;
   padding: 20px;
 }
 
@@ -160,30 +158,31 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .sponsor {
-    width: 200px;
+  /***********footer*********/
+
+  .followuson {
+    font-family: "glochester";
+    padding-top: 8px;
+    font-size: 35px;
+    text-align: center;
   }
 
-  .footerlogo {
-    width: 220px;
-    margin: 0 auto;
-    padding: 10px 20px;
+  .address-link {
+    color: #381b0e;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
   }
 
-  .social-logo {
-    height: auto;
-    transition: transform 0.2s;
-    width: 70px;
-    margin-right: -430px;
+  .address-link:hover {
+    color: #cc6907;
+    transform: scale(1.05);
+    text-decoration: underline;
   }
 
-  .social-logo2 {
-    height: auto;
-    transition: transform 0.2s;
-    width: 80px;
-    margin-left: -305px;
+  .email-link {
+    color: #381b0e;
+    text-decoration: none;
   }
-
   footer {
     background-color: #f9faf2;
     align-items: center;
@@ -192,70 +191,68 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: "glochester";
-    color: #381b0e;
+  }
+
+  .email-link:hover {
+    text-decoration: underline;
+    color: #cc6907;
   }
 
   .footer2 {
     text-align: center;
-    font-family: "glochester";
+
     padding-top: 10px;
-    color: #381b0e;
   }
 
   .aabningstider {
-    padding-top: 30px;
-    font-size: 25px;
-    font-family: "glochester";
-    color: #381b0e;
+    padding-top: 10px;
   }
 
   .aabningstid1 {
     padding: 20px;
-    font-size: 19px;
-    padding-top: 30px;
-    font-family: "glochester";
-    color: #381b0e;
   }
 
   .aabningstid2 {
-    padding: 10px;
-    font-size: 19px;
-    color: #381b0e;
+    padding: 20px;
   }
 
-  .footer2 {
-    text-align: center;
-
-    padding-top: 5px;
-    font-size: 19px;
+  .footerlogo {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 20px;
   }
 
-  .footer1 {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 19px;
+  .social-logo {
+    transition: transform 0.2s;
+  }
+  .social-logo:hover {
+    transform: scale(1.1);
   }
 
-  .menu {
-    list-style: none;
+  .socialstab {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    align-items: center;
   }
 
-  .menu li a {
-    text-decoration: none;
-    color: #cc6907;
-    font-size: 34px;
-    transition: color 0.3s;
+  .forrest {
+    order: -1;
   }
 
-  .menu li a:hover {
-    color: #f1e1c6;
+  .micon {
+    width: 200px;
   }
-  .logo {
-    max-width: 350px;
+
+  .sicon {
+    width: 75px;
+    height: 75px;
+  }
+
+  .sponsor {
+    width: 300px;
+    margin: 0 auto;
   }
 }
 
